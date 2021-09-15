@@ -45,15 +45,69 @@ if (answer == "right")
 }
 else if (answer == "left")
 {
-    Console.WriteLine($"On the left there is a monster that only eat beautiful humans so you dont have to worry about him");
+    Console.WriteLine($"On the left there is a monster that has a huge A*S");
 }
 else
 {
-    Console.WriteLine($"Because you didnt choose you have to go right now!!!");
+    Console.WriteLine($"Because you didnt choose, you have to go right now!!!");
 }
+
+Thread.Sleep(1700); 
+
+Console.WriteLine($"Now choose your weapon");
+
+Thread.Sleep(1700); 
+
+Console.WriteLine($"Do you want a sword, axe or selfcontrollingweapon?");
 
 answer = Console.ReadLine();
 
+if (answer == "sword")
+{
+    Console.WriteLine($"Good choice, you are real fighter");
+}
+else if (answer == "axe")
+{
+    Console.WriteLine($"I see you are a strong human, you are a godly warior");
+}
+else if (answer == "selfcontrollingweapon")
+{
+    Console.WriteLine($"Daymn you are a real f*cking p*ssy");
+}
+else
+{
+    Console.WriteLine($"Ok because you didnt choose you get a banana");
+}
+
+Thread.Sleep(1000);
+
+Console.WriteLine($"Now you will fight him!!!");
+
+Thread.Sleep(1000);
+
+Console.WriteLine($"Choose your attack");
+
+Thread.Sleep(1000);
+
+Console.WriteLine($"Punch or throw your weapon");
+
+answer = Console.ReadLine();
+
+if (answer == "punch")
+{
+    Console.WriteLine($"You beat him good job!!!");
+    Thread.Sleep(1000);
+    Console.WriteLine($"You Win, good job!!!");
+}
+else if (answer == "throw")
+{
+    Console.WriteLine($"Damn you really are a p*ssy");
+    Thread.Sleep(1000);
+    Console.WriteLine($"You Loose, you suck!!!");
+}
+else
+{
+    Console.WriteLine($"Because you didnt attack you died like a B*TCH!!!");    
+}
 
 Console.ReadLine();
-
